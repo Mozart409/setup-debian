@@ -24,3 +24,9 @@ wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | tee /etc/apt/truste
 sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
 apt-get update
 apt install github-desktop -y
+
+do_space
+echo "installing antigen and download .zshrc"
+curl -L https://raw.githubusercontent.com/Mozart409/.dotfiles/master/zsh/.zshrc > ~/.zshrc
+curl -L git.io/antigen > ~/antigen.zsh
+zsh
