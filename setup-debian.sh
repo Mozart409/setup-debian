@@ -30,3 +30,4 @@ echo "installing antigen and download .zshrc"
 curl -L https://raw.githubusercontent.com/Mozart409/.dotfiles/master/zsh/.zshrc > ~/.zshrc
 curl -L git.io/antigen > ~/antigen.zsh
 zsh
+chsh -s $(which zsh)
