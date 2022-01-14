@@ -16,7 +16,7 @@ echo "Updating sources"
 apt update -y
 do_space
 echo "Installing new packages"
-apt-get -q -y install fonts-firacode git zsh curl wget
+apt-get -q -y install fonts-firacode git zsh curl wget zip
 
 do_space
 echo "installing Github Desktop"
